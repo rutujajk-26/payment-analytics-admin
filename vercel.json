@@ -1,5 +1,6 @@
 {
     "rewrites": [
+      { "source": "/", "destination": "/index.html" },
       { "source": "/operations", "destination": "/operations/index.html" },
       { "source": "/operations/:path*", "destination": "/operations/index.html" },
       { "source": "/transaction", "destination": "/transaction/index.html" },
