@@ -1,0 +1,11 @@
+{
+    "rewrites": [
+      { "source": "/operations", "destination": "/operations/index.html" },
+      { "source": "/operations/:path*", "destination": "/operations/index.html" },
+      { "source": "/transaction", "destination": "/transaction/index.html" },
+      { "source": "/transaction/:path*", "destination": "/transaction/index.html" },
+      { "source": "/analytics", "destination": "/analytics/index.html" },
+      { "source": "/analytics/:path*", "destination": "/analytics/index.html" }
+    ]
+  }
+  
