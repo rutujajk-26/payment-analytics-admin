@@ -13,8 +13,8 @@ export default defineConfig({
       input: {
         main: resolve(__dirname, 'index.html'),
         operations: resolve(__dirname, 'public/operations/index.html'),
-        transaction: resolve(__dirname, 'public/transaction/index.html'),
         analytics: resolve(__dirname, 'public/analytics/index.html'),
+        transaction: resolve(__dirname, 'public/transaction/index.html'),
       },
     },
   },
